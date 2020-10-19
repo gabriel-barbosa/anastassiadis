@@ -1,0 +1,140 @@
+/**
+ * modules/fonts
+ * ---
+ * Declare fonts here
+ */
+
+
+/*
+@font-face {
+  font-family: "Font-Name";
+  src: url("fonts/font-name.eot");
+  src: url("fonts/font-name.eot?#iefix") format("embedded-opentype"),
+    url("fonts/font-name.woff") format("woff"),
+    url("fonts/font-name.ttf") format("truetype"),
+    url("fonts/font-name.svg#font-name") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+*/
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Light.eot');
+    src: url('fonts/Apercu-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Light.woff2') format('woff2'),
+        url('fonts/Apercu-Light.woff') format('woff'),
+        url('fonts/Apercu-Light.ttf') format('truetype'),
+        url('fonts/Apercu-Light.svg#Apercu-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Regular.eot');
+    src: url('fonts/Apercu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Regular.woff2') format('woff2'),
+        url('fonts/Apercu-Regular.woff') format('woff'),
+        url('fonts/Apercu-Regular.ttf') format('truetype'),
+        url('fonts/Apercu-Regular.svg#Apercu-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Italic.eot');
+    src: url('fonts/Apercu-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Italic.woff2') format('woff2'),
+        url('fonts/Apercu-Italic.woff') format('woff'),
+        url('fonts/Apercu-Italic.ttf') format('truetype'),
+        url('fonts/Apercu-Italic.svg#Apercu-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Medium.eot');
+    src: url('fonts/Apercu-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Medium.woff2') format('woff2'),
+        url('fonts/Apercu-Medium.woff') format('woff'),
+        url('fonts/Apercu-Medium.ttf') format('truetype'),
+        url('fonts/Apercu-Medium.svg#Apercu-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-MediumItalic.eot');
+    src: url('fonts/Apercu-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-MediumItalic.woff2') format('woff2'),
+        url('fonts/Apercu-MediumItalic.woff') format('woff'),
+        url('fonts/Apercu-MediumItalic.ttf') format('truetype'),
+        url('fonts/Apercu-MediumItalic.svg#Apercu-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('fonts/Apercu-Bold.eot');
+    src: url('fonts/Apercu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Apercu-Bold.woff2') format('woff2'),
+        url('fonts/Apercu-Bold.woff') format('woff'),
+        url('fonts/Apercu-Bold.ttf') format('truetype'),
+        url('fonts/Apercu-Bold.svg#Apercu-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela-Thin.eot');
+    src: url('fonts/Canela-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-Thin.woff2') format('woff2'),
+        url('fonts/Canela-Thin.woff') format('woff'),
+        url('fonts/Canela-Thin.ttf') format('truetype'),
+        url('fonts/Canela-Thin.svg#Canela-Thin') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela-ThinItalic.eot');
+    src: url('fonts/Canela-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-ThinItalic.woff2') format('woff2'),
+        url('fonts/Canela-ThinItalic.woff') format('woff'),
+        url('fonts/Canela-ThinItalic.ttf') format('truetype'),
+        url('fonts/Canela-ThinItalic.svg#Canela-ThinItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela-Light.eot');
+    src: url('fonts/Canela-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-Light.woff2') format('woff2'),
+        url('fonts/Canela-Light.woff') format('woff'),
+        url('fonts/Canela-Light.ttf') format('truetype'),
+        url('fonts/Canela-Light.svg#Canela-Light') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('fonts/Canela-LightItalic.eot');
+    src: url('fonts/Canela-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Canela-LightItalic.woff2') format('woff2'),
+        url('fonts/Canela-LightItalic.woff') format('woff'),
+        url('fonts/Canela-LightItalic.ttf') format('truetype'),
+        url('fonts/Canela-LightItalic.svg#Canela-LightItalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
