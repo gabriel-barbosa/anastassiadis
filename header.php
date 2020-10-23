@@ -73,7 +73,7 @@
 				<?php endif; ?>
 
 			<?php if(is_page(array('work')) || is_category() || is_single()): ?>
-			<div class="cat-menu">
+			<div class="cat-menu <?php if(qtranxf_getLanguage() == "en"): ?>english<?php endif; ?>">
 				<div class="cat-item all"><a href="<?php bloginfo('url') ?>/work/">All</a></div>
 				<?php global $wp_query;
 				// get the query object
@@ -93,9 +93,9 @@
 			<?php endif; ?>
 
 			<?php if(is_page('about')): ?>
-				<div class="cat-menu about-menu">
+				<div class="cat-menu about-menu <?php if(qtranxf_getLanguage() == "en"): ?>english<?php endif; ?>">
 					<div class="cat-item"><a href="#profile"><?php if(qtranxf_getLanguage() == "pb"): ?>Perfil<?php else: ?>Profile<?php endif; ?></a></div>
-					<div class="cat-item"><a href="#team"><?php if(qtranxf_getLanguage() == "pb"): ?>Time<?php else: ?>Team<?php endif; ?></a></div>
+					<div class="cat-item"><a href="#team"><?php if(qtranxf_getLanguage() == "pb"): ?>Equipe<?php else: ?>Team<?php endif; ?></a></div>
 					<div class="cat-item"><a href="#clients"><?php if(qtranxf_getLanguage() == "pb"): ?>Clientes<?php else: ?>Clients<?php endif; ?></a></div>
 				</div>
 			<?php endif; ?>
