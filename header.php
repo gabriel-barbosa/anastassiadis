@@ -48,6 +48,13 @@
 				</a>
 			</div>
 
+			<div id="nav-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+
 			<nav class="nav">
 				<?php wp_nav_menu(array('menu' => '9')); ?>
 				<?php html5blank_nav(); ?>
@@ -100,6 +107,11 @@
 				</div>
 			<?php endif; ?>
 	</header>
+
+	<nav class="menu-mobile">
+		<?php wp_nav_menu(array('menu' => '9')); ?>
+		<?php html5blank_nav(); ?>
+	</nav>
 	<!-- /header -->
 
 	<div class="wrapper">

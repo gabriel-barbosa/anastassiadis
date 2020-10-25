@@ -18,6 +18,11 @@
 						<div class="title"><?php the_title(); ?></div>
 					</div>
 				</a>
+
+				<div class="title-mobile">
+					<div class="category"><?php $category = get_the_category(); echo $category[0]->cat_name; ?></div>
+					<div class="title"><?php the_title(); ?></div>
+				</div>
 			</div>
 		<?php endwhile; ?>
 	</div>

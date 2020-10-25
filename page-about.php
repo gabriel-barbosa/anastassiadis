@@ -14,6 +14,7 @@
 		<?php while( have_rows('team_founder') ): the_row(); ?>
 			<div id="team" class="section team content">
 				<h1><?php if(qtranxf_getLanguage() == "pb"): ?>Equipe<?php else: ?>Team<?php endif; ?></h1>
+				<img class="mobile-photo" src="<?php the_sub_field('photo'); ?>" alt="">
 				<div class="align-bottom">
 					<div class="role"><?php the_sub_field('role'); ?></div>
 					<h2><?php the_sub_field('name'); ?></h2>

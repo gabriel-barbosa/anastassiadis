@@ -4,7 +4,7 @@
 	<?php if( have_rows('press') ): ?>
 		<div class="press">
 			<?php while( have_rows('press') ): the_row(); ?>
-				<div class="single-press">
+				<div class="single-press<?php if(get_sub_field('hide_mobile')): echo " hidden-mobile"; endif; ?>">
 					<div class="year"><?php the_sub_field('ano'); ?></div>
 
 					<div class="name">
