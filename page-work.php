@@ -5,7 +5,8 @@
 	$args = array(
 		'post_type'=> 'post',
 		'post_status' => 'publish',
-		'order'    => 'DESC',
+		'category__not_in' => array( 7 ),
+		'posts_per_page' => -1,
 	);
 	$posts = new WP_Query( $args ); if ($posts->have_posts()): ?>
 	<div class="posts-grid">

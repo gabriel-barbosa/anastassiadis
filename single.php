@@ -24,7 +24,7 @@
 				<p class="caption">&nbsp;</p>
 
 				<div class="thumbnails-button">
-					<div class="button">See thumbnails</div>
+					<div class="button"><img src="<?php bloginfo('template_url'); ?>/img/thumbnails.svg" alt=""></div>
 				</div>
 			</div>
 		</div>

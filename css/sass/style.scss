@@ -211,7 +211,7 @@ ul, ol {
 
 /* HAMBURGER NAV MENU */
 .menu-mobile {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -973,6 +973,11 @@ body.work {
       .button {
         float: right;
       }
+
+			img {
+				width: 25px;
+				height: auto;
+			}
     }
   }
 
@@ -1526,7 +1531,7 @@ body.press {
       margin-bottom: 80px;
 
       h1 {
-        font-size: 90px;
+        font-size: 80px;
         font-family: "Canela", serif;
         font-weight: 300;
         font-style: italic;
@@ -1536,7 +1541,7 @@ body.press {
 
       .year {
         color: #707070;
-        font-size: 20px;
+        font-size: 18px;
       }
 
       .name {
@@ -1552,7 +1557,7 @@ body.press {
       }
 
       .link {
-        font-size: 26px;
+        font-size: 23px;
         text-transform: uppercase;
 
         a {
@@ -1617,16 +1622,16 @@ body.press {
         margin-bottom: 60px;
 
         h1 {
-          font-size: 70px;
+          font-size: 60px;
         }
 
         .year {
           color: #707070;
-          font-size: 18px;
+          font-size: 16px;
         }
 
         .link {
-          font-size: 20px;
+          font-size: 18px;
           text-transform: uppercase;
         }
       }
@@ -1644,7 +1649,7 @@ body.press {
         margin-bottom: 80px;
 
         h1 {
-          font-size: 104px;
+          font-size: 94px;
         }
 
         .year {
@@ -1653,7 +1658,7 @@ body.press {
         }
 
         .link {
-          font-size: 32px;
+          font-size: 30px;
           text-transform: uppercase;
         }
       }

@@ -2,9 +2,7 @@
 	"use strict";
 
 	$(function () {
-		$(window).resize(function() {
-			$(".slider-header, .slider, .single-post").height(window.innerHeight);
-		});
+		$(".slider-header, .slider, .slider .single-post").height(window.innerHeight);
 
 		$('.slider').on('init', function(event, slick){
 			var color = $(this).find('.single-post:first-of-type').data("color");
@@ -16,7 +14,7 @@
 		});
 
 		$(".slider").slick({
-		speed: 800,
+		speed: 1500,
 		autoplay: true,
 		fade: true,
 		dots: true,
